@@ -1,0 +1,121 @@
+@media(max-width:1500px){
+    
+}
+
+@media (max-width:1199px){
+    
+    .main-nav .nav .nav-item.last{
+        margin-left: 5px;
+    }
+    .main-nav .nav .nav-item{
+        margin-right: 0px;
+        margin: 0.5rem 0;
+    }
+    
+}
+
+@media (min-width: 992px){
+    
+}
+
+@media (max-width:991px){
+   
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 0 15px !important;
+    }
+    
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .dm--modal .modal-dialog {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+  
+    .dm--modal.trade .trade-btn a:first-child {
+      width: 300px;
+    }
+    .dm--modal.trade .trade-btn a:last-child {
+      width: 220px;
+    }
+    .dm--modal.trade .modal-dialog {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .dm--modal .modal-content{
+      border-radius: 10px;
+    }
+    .dm--modal .modal-content .modal-body{
+      min-height: 300px;
+      padding: 0;
+    }
+    .dm--modal .dm--dbx{
+      min-height: 500px;
+      width: 40%;
+      border-radius: 10px 0 0 10px;
+    }
+    .md--modal .dm--dbx{
+      min-height: 380px;
+      width: 40%;
+      border-radius: 10px 0 0 10px;
+    }
+    .md--modal .modal-content .modal-body{
+      padding: 0 !important;
+    }
+    .dm--modal .dm--body,
+    .md--modal .dm--body{
+      padding: 1.7rem 1.5rem;
+      border-radius: 0 10px 10px 0;
+      width: 60%;
+      position: relative;
+    }
+    .dm--modal .dm--body .dm--ct{
+      min-height: 86.5%;
+      position: relative;
+    }
+  
+    .dm--modal .dm--body .dm--ct .btn{
+      /* position: absolute; */
+      bottom: 0;
+    }
+  
+    .dm--modal .dm--body.trade{
+      width: 100%;
+    }
+    .dm--modal form .form-control{
+      border-radius: 2px;
+      border: 1px solid #C9DFEA;
+      background-color: #F6F9FB;
+      width: 100% !important;
+    }
+    .dm--modal form select.form-control{
+      height: 45px !important;
+      border-radius: 4px !important;
+    }
+    .dm--modal form .form-control:focus,
+    .dm--modal form .form-control:active{
+      box-shadow: none !important;
+      outline: none !important;
+      border: 1px solid #6d6d6c;
+    }
+  }
+  
+  @media (max-width:576px){
+      
+   
+    .modal .dm--dbx {
+        display: none !important;
+    }
+    .md--modal .modal-body > .d-flex{
+        display: unset !important;
+    }
+  
+  }

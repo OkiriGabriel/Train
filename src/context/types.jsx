@@ -1,0 +1,2 @@
+export const GET_LOGGEDIN_USER = 'GET_LOGGEDIN_USER';
+export const SET_LOADING = 'SET_LOADING';
