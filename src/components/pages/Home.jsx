@@ -39,7 +39,7 @@ const Home = () => {
                         </div>
                         <div className="row">
                             
-                            <div className="col-md-7 intro-heading mx-auto ui-text-center">
+                            <div className="col-md-7  mx-auto ui-text-center">
                                     
                                     <p className="fs-18 mrgt3 font-intersemibold on-white">
                                   Lorem ipsum dolor sit amet consectetur?
@@ -126,8 +126,8 @@ const Home = () => {
 
                              </div>
                              <div className="col-md-5 bg-yel">
-                             <h1 className="font-interbold mrgt3 fs-30 on-black" >Lorem ipsum dolor sit amet consectetur..</h1>
-                                     <h1 className="font-interbold mrgt3 on-black fs-50 pl-3 ml-4" >INDODEVA</h1>
+                             <h1 className="font-interbold mrgt5 fs-30 on-black" >Lorem ipsum dolor sit amet consectetur..</h1>
+                                     <h1 className="font-interbold mrgt1 on-black fs-50 pl-3 ml-4" >INDODEVA</h1>
                              </div>
                         
                         
