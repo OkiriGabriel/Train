@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../layouts/partials/NavBar'
 
 const Home = () => {
-    return (
+   return (
         <>
            <Navbar /> 
 
@@ -112,15 +112,19 @@ const Home = () => {
 
                         <div className="row">
                             
-                            <div className="col-md-7 intro-heading">
-                                     <h1 className="font-interbold mrgt fs-30 on-black" >Lorem ipsum dolor sit amet consectetur..</h1>
-                                    <p className="fs-18 mrgt font-intersemibold on-black">
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias nesciunt quisquam nobis maxime omnis, inventore similique impedit reiciendis ducimus saepe a fugiat assumenda necessitatibus at.
-                                
-                                    </p>
-                                    <p className="fs-18 mrgt1 font-intersemibold ">
-                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo molestias nesciunt quisquam nobis maxime omnis
-                                    </p>
+                            <div className="col-md-7 form-tag">
+                                                            
+                                    <div class="form-group d-flex">
+                                        <label for="exampleFormControlSelect1">Example select</label>
+                                        <select class="form-ctrl " id="exampleFormControlSelect1">
+                                            <option>5 Jahre</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                   <div className='d-flex'>
+                                   <button class="bl-btn ">12px</button>
+                                   <button class="bs-btn ">Next</button>
+                                   </div>
                                     
                                
 
